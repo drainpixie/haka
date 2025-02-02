@@ -29,7 +29,6 @@ auto JaroWinklerDistance(std::string s1, std::string s2) {
              std::max(0, static_cast<int>(i) - static_cast<int>(max_distance));
          j < std::min(n, i + max_distance + 1); ++j) {
 
-      // If there is a match
       if (s1[i] == s2[j] && hash_n[j] == '0') {
         hash_m[i] = '1';
         hash_n[j] = '1';
@@ -130,7 +129,7 @@ auto CollectArgs(std::vector<std::string> &words, int argc, char *argv[]) {
   //
   // If we don't do this, pipes won't work, etc.
   // `fzf` does this too. Kudos to @buffet for figuring this out.
-  
+
   close(STDIN_FILENO);
 
   auto fd = open("/dev/tty", O_RDONLY);

@@ -1,5 +1,6 @@
-# nix build artifacts
+# nix 
 result
+.direnv
 
 # binary
-iris*
+ha
