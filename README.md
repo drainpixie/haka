@@ -2,6 +2,8 @@
 
 a small command-line tool for fuzzy finding
 
+![screenshot](.github/assets/scrot.gif)
+
 ## 🖥️ dev
 
 ```sh
