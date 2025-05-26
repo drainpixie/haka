@@ -6,7 +6,7 @@ CXXFLAGS += `pkg-config --cflags ncurses`
 
 LDFLAGS  += `pkg-config --libs ncurses`
 
-TARGET ?= ha 
+TARGET ?= haka
 SRC		 = main.cpp
 
 all: $(TARGET)

@@ -13,7 +13,7 @@
     (
       system: let
         pkgs = import nixpkgs {inherit system;};
-        name = "ha_${system}";
+        name = "haka_${system}";
       in {
         packages = {
           default = pkgs.stdenv.mkDerivation {
