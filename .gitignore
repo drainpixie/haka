@@ -1,6 +1,7 @@
 # nix 
-result
-.direnv
+/result
+/.direnv
+/.pre-commit-config.yaml
 
 # binary
-ha
+haka
